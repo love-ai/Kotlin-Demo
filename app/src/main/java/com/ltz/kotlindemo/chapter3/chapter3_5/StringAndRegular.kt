@@ -8,7 +8,10 @@ package com.ltz.kotlindemo.chapter3.chapter3_5
 fun print3_5() {
     println("12.345-6.A".split("\\.|-".toRegex()))
     println("12.345-6.A".split(".", "-"))//可指定多个分隔符
-    parasePath("/users/xiaowei/kotlin/chapter1.txt")
+    val path = "/users/xiaowei/kotlin/chapter1.txt"
+    parasePath(path)
+    parasePathRegex(path)
+    println(kotlinLogo)
 }
 
 fun parasePath(path: String) {
@@ -19,3 +22,16 @@ fun parasePath(path: String) {
 
     println("directory:$directory, fullName:$fullName, fileName:$fileName, extension:$extension")
 }
+
+fun parasePathRegex(path: String) {
+    val regex = """(.+)/(.+)\.(.+)""".toRegex()
+    val matchEntire = regex.matchEntire(path)
+    if (matchEntire != null) {
+        val (directory, filename, extension) = matchEntire.destructured
+        println("dir: $directory name:$filename ext:$extension")
+    }
+}
+
+val kotlinLogo = """| //
+                   .|//
+                   .|/ \""".trimMargin(".")

@@ -19,7 +19,7 @@ fun printOriginList() {
     //指定参数名后可以随意顺序
     println(joinToStringWithDefaultParams(list, postfix = "]", prefix = "["))
 
-    //倒入函数名，直接调用join.kt中的函数
+    //导入函数名，直接调用join.kt中的函数
     joinToStringUtil(list)
 }
 

@@ -12,11 +12,9 @@ import com.ltz.kotlindemo.chapter2.chapter2_4.printList
 import com.ltz.kotlindemo.chapter2.chapter2_4.printTreeMap
 import com.ltz.kotlindemo.chapter2.chapter2_4.recognize
 import com.ltz.kotlindemo.chapter2.chapter2_5.readNumber2
-import com.ltz.kotlindemo.chapter3.chapter3_1.printJavaClass
-import com.ltz.kotlindemo.chapter3.chapter3_2.printOriginList
-import com.ltz.kotlindemo.chapter3.chapter3_3.print3_3
-import com.ltz.kotlindemo.chapter3.chapter3_4.print3_4
-import com.ltz.kotlindemo.chapter3.chapter3_5.print3_5
+import com.ltz.kotlindemo.chapter3.chapter3_6.print3_6
+import com.ltz.kotlindemo.chapter4.chapter4_1.print4_1
+import com.ltz.kotlindemo.chapter4.chapter4_2.print4_2
 import com.ltz.kotlindemo.util.lastChar as last //修改倒入方法的名称
 
 import kotlinx.android.synthetic.main.activity_main.*
@@ -28,7 +26,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 //        showChapter2(main_text)
-        showChapter3(main_text)
+//        showChapter3(main_text)
+        showChapter4(main_text)
     }
 }
 
@@ -60,7 +59,13 @@ private fun showChapter3(main_text: TextView) {
 //    println("xiaowei".last())
 //    print3_3()
 //    print3_4()
-    print3_5()
+//    print3_5()
+    print3_6()
+}
+
+private fun showChapter4(main_text: TextView) {
+//    print4_1()
+    print4_2()
 }
 
 
