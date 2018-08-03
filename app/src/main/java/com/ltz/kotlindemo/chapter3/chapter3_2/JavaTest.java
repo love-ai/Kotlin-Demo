@@ -2,6 +2,7 @@ package com.ltz.kotlindemo.chapter3.chapter3_2;
 
 //import com.ltz.kotlindemo.util.MyUtilKt;
 
+import com.ltz.kotlindemo.chapter4.chapter4_4.Person;
 import com.ltz.kotlindemo.util.StringFunctions;
 
 import java.util.ArrayList;
