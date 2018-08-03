@@ -13,13 +13,11 @@ import com.ltz.kotlindemo.chapter2.chapter2_4.printTreeMap
 import com.ltz.kotlindemo.chapter2.chapter2_4.recognize
 import com.ltz.kotlindemo.chapter2.chapter2_5.readNumber2
 import com.ltz.kotlindemo.chapter3.chapter3_6.print3_6
-import com.ltz.kotlindemo.chapter4.chapter4_1.print4_1
-import com.ltz.kotlindemo.chapter4.chapter4_2.print4_2
-import com.ltz.kotlindemo.util.lastChar as last //修改倒入方法的名称
-
+import com.ltz.kotlindemo.chapter4.chapter4_3.print4_3_3
 import kotlinx.android.synthetic.main.activity_main.*
 import java.io.BufferedReader
 import java.io.StringReader
+import com.ltz.kotlindemo.util.lastChar as last
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -65,7 +63,11 @@ private fun showChapter3(main_text: TextView) {
 
 private fun showChapter4(main_text: TextView) {
 //    print4_1()
-    print4_2()
+//    print4_2()
+//    print4_3()
+//    print4_3_2()
+    print4_3_3()
+
 }
 
 
