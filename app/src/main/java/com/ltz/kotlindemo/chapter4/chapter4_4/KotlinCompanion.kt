@@ -11,17 +11,14 @@ fun print4_4_2() {
     //需要创建对象，然后调用方法
     println(A().getValue())
     println("nickname is :${User("zxwei@twiter.com").nickname}")
-    //类似单例模式 生成的fb1、fb2为CompanionUser的子类 称为伴生对象成员
+    //类似单例模式 生成的fb1、fb2为C ompanionUser的子类 称为伴生对象成员
     val fb1 = CompanionUser.createFaceBookUser(144255366)
     val fb2 = CompanionUser.createFaceBookUser(144255366)
-    val t1 = CompanionUser.createTwiterUser("123")
-    val t2 = CompanionUser.createTwiterUser("123")
     println("nickname is :${fb1.nickname}")
     //kotlin in action 中说这里会判断id与唯一一个CompanionUser对象对应 但是就是对应不起来？？
     println(fb1)
     println(fb2)
     println(fb1.equals(fb2))//false
-    println("t1.equals(t2):${t1.equals(t2)}")//false
     println(fb1.equals(CompanionUser.createFaceBookUser(144255366)))//
     println(fb1 == fb2)//输出 uid=10494(u0_a494) com.ltz.kotlindemo identical 1 line
     println(fb1 === fb2)//false

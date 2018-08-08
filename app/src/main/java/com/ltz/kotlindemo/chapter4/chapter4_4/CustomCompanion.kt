@@ -9,7 +9,8 @@ fun print4_4_3() {
     val person2 = Person.fromJSON("xiaohong")
 
     //函数使用抽象方法加载实体，直接传入Person对象
-    loadFromJson(Person)
+    val loadFromJson = loadFromJson(factory = Person)
+    println(loadFromJson.name)
 
 }
 
@@ -28,5 +29,5 @@ class Person(val name: String) {
 
 
 fun <T> loadFromJson(factory: JSONFactory<T>): T {
-    return factory.fromJSON("s")
+    return factory.fromJSON("s1")
 }
