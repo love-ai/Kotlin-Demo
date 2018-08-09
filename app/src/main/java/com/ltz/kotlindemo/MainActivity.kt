@@ -13,11 +13,8 @@ import com.ltz.kotlindemo.chapter2.chapter2_4.printTreeMap
 import com.ltz.kotlindemo.chapter2.chapter2_4.recognize
 import com.ltz.kotlindemo.chapter2.chapter2_5.readNumber2
 import com.ltz.kotlindemo.chapter3.chapter3_6.print3_6
-import com.ltz.kotlindemo.chapter4.chapter4_3.print4_3_3
-import com.ltz.kotlindemo.chapter4.chapter4_4.print4_4_1
-import com.ltz.kotlindemo.chapter4.chapter4_4.print4_4_2
-import com.ltz.kotlindemo.chapter4.chapter4_4.print4_4_3
 import com.ltz.kotlindemo.chapter4.chapter4_4.print4_4_4
+import com.ltz.kotlindemo.chapter5.chapter5_1.print5_1_4
 import kotlinx.android.synthetic.main.activity_main.*
 import java.io.BufferedReader
 import java.io.StringReader
@@ -29,7 +26,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 //        showChapter2(main_text)
 //        showChapter3(main_text)
-        showChapter4(main_text)
+//        showChapter4(main_text)
+        showChapter5(main_text)
     }
 }
 
@@ -77,5 +75,10 @@ private fun showChapter4(main_text: TextView) {
     print4_4_4()
 }
 
+private fun showChapter5(main_text: TextView) {
+//    print5_1_2()
+//    print5_1_3()
+    print5_1_4()
+}
 
 
