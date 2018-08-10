@@ -15,6 +15,9 @@ import com.ltz.kotlindemo.chapter2.chapter2_5.readNumber2
 import com.ltz.kotlindemo.chapter3.chapter3_6.print3_6
 import com.ltz.kotlindemo.chapter4.chapter4_4.print4_4_4
 import com.ltz.kotlindemo.chapter5.chapter5_1.print5_1_4
+import com.ltz.kotlindemo.chapter5.chapter5_1.print5_1_5
+import com.ltz.kotlindemo.chapter5.chapter5_2.print5_2_1
+import com.ltz.kotlindemo.chapter5.chapter5_2.print5_2_2
 import kotlinx.android.synthetic.main.activity_main.*
 import java.io.BufferedReader
 import java.io.StringReader
@@ -78,7 +81,12 @@ private fun showChapter4(main_text: TextView) {
 private fun showChapter5(main_text: TextView) {
 //    print5_1_2()
 //    print5_1_3()
-    print5_1_4()
+//    print5_1_4()
+//    print5_1_5()
+
+//    print5_2_1()
+    print5_2_2()
 }
+
 
 
