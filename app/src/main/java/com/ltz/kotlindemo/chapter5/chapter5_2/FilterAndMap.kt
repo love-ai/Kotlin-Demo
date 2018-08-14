@@ -4,7 +4,7 @@ package com.ltz.kotlindemo.chapter5.chapter5_2
  * Created by xiaowei on 2018/8/10
  * 集合的Filter和Map的用法
  */
-data class Person(val name: String, val age: Int, val address: String)
+data class Person(val name: String, val age: Int, val address: String="")
 
 val people = listOf(Person("xiaohong", 23, "hubei"),
         Person("xiaohua", 23, "shanghai"),

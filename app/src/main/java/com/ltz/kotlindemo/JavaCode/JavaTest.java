@@ -1,8 +1,7 @@
-package com.ltz.kotlindemo.chapter3.chapter3_2;
+package com.ltz.kotlindemo.JavaCode;
 
 //import com.ltz.kotlindemo.util.MyUtilKt;
 
-import com.ltz.kotlindemo.chapter4.chapter4_4.Person;
 import com.ltz.kotlindemo.util.StringFunctions;
 
 import java.util.ArrayList;
@@ -30,5 +29,10 @@ public class JavaTest {
         StringFunctions.lastChar("xiaowei");
 //        MyUtilKt.lastChar("xiaowei");
         StringFunctions.getLastChar("Java");
+    }
+
+
+    public void postponeComputation(int delay, Runnable computation) {
+
     }
 }
