@@ -16,3 +16,5 @@ fun strLen(s: String) = s.length
 
 //如果s可为null 则后面不能调用s的方法和属性 也不能赋值给非空类型的变量
 fun strLenCanBeNull(s: String?) = if (s == null) 0 else s.length // if else 三元表达式
+
+
