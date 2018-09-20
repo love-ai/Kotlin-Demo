@@ -28,7 +28,7 @@ fun printAllCaps(s: String?) {
     println(allCaps)
 }
 
-class Employee(val name: String, val manager: Employee?)//这时候？放在类型的后面
+class Employee(val name: String, val manager: Employee?)//这时候  ？ 放在类型的后面
 
 fun managerName(employee: Employee): String? = employee.manager?.name
 

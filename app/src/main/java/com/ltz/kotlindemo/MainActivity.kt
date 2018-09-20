@@ -26,10 +26,7 @@ import com.ltz.kotlindemo.chapter5.chapter5_4.print5_4_1
 import com.ltz.kotlindemo.chapter5.chapter5_4.print5_4_2
 import com.ltz.kotlindemo.chapter5.chapter5_5.print5_5_1
 import com.ltz.kotlindemo.chapter5.chapter5_5.print5_5_2
-import com.ltz.kotlindemo.chapter6.chapter6_1.print6_1_1
-import com.ltz.kotlindemo.chapter6.chapter6_1.print6_1_3
-import com.ltz.kotlindemo.chapter6.chapter6_1.print6_1_4
-import com.ltz.kotlindemo.chapter6.chapter6_1.print6_1_5
+import com.ltz.kotlindemo.chapter6.chapter6_1.*
 import kotlinx.android.synthetic.main.activity_main.*
 import java.io.BufferedReader
 import java.io.StringReader
@@ -117,7 +114,9 @@ private fun showChapter6() {
 //    print6_1_1()
 //    print6_1_3()
 //    print6_1_4()
-    print6_1_5()
+//    print6_1_5()
+//    print6_1_6()
+    print6_1_7()
 }
 
 
