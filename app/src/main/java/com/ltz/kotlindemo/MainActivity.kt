@@ -116,7 +116,10 @@ private fun showChapter6() {
 //    print6_1_4()
 //    print6_1_5()
 //    print6_1_6()
-    print6_1_7()
+//    print6_1_7()
+//    print6_1_8()
+//    print6_1_9()
+    print6_1_10()
 }
 
 
