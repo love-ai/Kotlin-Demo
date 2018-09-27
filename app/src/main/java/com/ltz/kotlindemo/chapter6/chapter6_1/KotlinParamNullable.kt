@@ -11,7 +11,7 @@ fun print6_1_10() {
 }
 
 fun <T> printHashCode(t: T) {//类型参数 T推导出的类型是可空类型 Any?
-    println(t?.hashCode())
+    println(t?.hashCode())//这里必须要检查空
 }
 
 fun <T : Any> printHashCode1(t: T) {
