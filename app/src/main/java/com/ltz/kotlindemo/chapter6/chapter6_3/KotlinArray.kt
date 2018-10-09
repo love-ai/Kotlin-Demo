@@ -39,3 +39,4 @@ fun main(args: Array<String>) {
     // 包括基本数据类型的数组(注意，这些方法的返回值是列表而不是数组)。
     args.forEachIndexed { index, element -> println("Argument $index is: $element") }
 }
+
