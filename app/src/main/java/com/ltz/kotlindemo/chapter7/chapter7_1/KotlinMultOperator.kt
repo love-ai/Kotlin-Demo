@@ -24,7 +24,7 @@ fun print7_1_2() {
     println(newList)
 }
 
-//同一个包中的类只能定义一个同名的
+//同一个包中的数据类只能定义一个同名的
 //data class Point(val x: Int, val y: Int) {
 //}
 
@@ -37,6 +37,7 @@ fun print7_1_2() {
 operator fun <T> MutableCollection<T>.plusAssign(element: T) {
     this.add(element)
 }
+
 
 operator fun <T> MutableCollection<T>.plus(element: T): MutableCollection<T> {
     this.add(element)

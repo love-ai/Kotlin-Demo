@@ -11,6 +11,7 @@ fun print7_2_2() {
     val p1 = Person("Alice", "Smith")
     val p2 = Person("Bob", "Johnson")
     println(p1 < p2)
+    println(p1 >= p2)
     println("abc" < "bac")//编译器可以直接判断出结果
 }
 

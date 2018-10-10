@@ -16,7 +16,7 @@ fun print4_3() {
 class Client(val name: String, val postalCode: Int) {
 
     override fun equals(other: Any?): Boolean {
-        if (other == null || other !is Client)
+        if (other == null || other !is Client)//判断是否是client类型
             return false
         return other.name == name && other.postalCode == postalCode
     }

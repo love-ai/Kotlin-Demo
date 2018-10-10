@@ -15,7 +15,8 @@ import com.ltz.kotlindemo.chapter2.chapter2_5.readNumber2
 import com.ltz.kotlindemo.chapter3.chapter3_6.print3_6
 import com.ltz.kotlindemo.chapter4.chapter4_4.print4_4_4
 import com.ltz.kotlindemo.chapter6.chapter6_3.print6_3_5
-import com.ltz.kotlindemo.chapter7.chapter7_2.print7_2_2
+import com.ltz.kotlindemo.chapter7.chapter7_3.print7_3_3
+import com.ltz.kotlindemo.chapter7.chapter7_3.print7_3_4
 import java.io.BufferedReader
 import java.io.StringReader
 import com.ltz.kotlindemo.util.lastChar as last
@@ -129,7 +130,12 @@ private fun showChapter7() {
 //    print7_1_2()
 //    print7_1_3()
 //    print7_2_1()
-    print7_2_2()
+//    print7_2_2()
+//    print7_3_1()
+//    print7_3_2()
+//    print7_3_3()
+    print7_3_4()
+
 
 }
 
