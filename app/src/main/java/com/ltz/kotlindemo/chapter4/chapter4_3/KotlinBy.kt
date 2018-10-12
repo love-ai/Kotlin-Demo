@@ -2,6 +2,7 @@ package com.ltz.kotlindemo.chapter4.chapter4_3
 
 /**
  * Created by xiaowei on 2018/8/2
+ * 类委托 使用by
  */
 
 fun print4_3_3() {

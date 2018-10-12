@@ -8,7 +8,7 @@ fun print4_3() {
     val client = Client("xiaowei", 100010)
     val client1 = Client("xiaowei", 100010)
     println(client.toString()) //默认是打印：com.ltz.kotlindemo.chapter4.chapter4_3.Client@deb7add
-    println(client == client1)//两个对象不相等，== 会被编译成 equals 和java不同 java是比较饮用
+    println(client == client1)//两个对象不相等，== 会被编译成 equals 和java不同 java是比较引用
     val processed = hashSetOf(Client("xiaoming", 432700))
     println(processed.contains(Client("xiaoming", 432700)))
 }

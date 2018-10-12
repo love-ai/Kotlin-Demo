@@ -6,7 +6,7 @@ package com.ltz.kotlindemo.chapter4.chapter4_2
 
 class AliUer(val name: String) {
     var address: String = "undefined"
-        set(value: String) {
+        set(value: String) {//可以自动判断类型
             println("""
                 Address was changed form $name :
                 "$field" -> "$value".""".trimIndent())

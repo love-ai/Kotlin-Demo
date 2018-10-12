@@ -1,7 +1,9 @@
 package com.ltz.kotlindemo
 
 import android.annotation.SuppressLint
+import android.os.Build
 import android.os.Bundle
+import android.support.annotation.RequiresApi
 import android.support.v7.app.AppCompatActivity
 import android.widget.TextView
 import com.ltz.kotlindemo.chapter2.chapter2_1.Person
@@ -13,15 +15,13 @@ import com.ltz.kotlindemo.chapter2.chapter2_4.printTreeMap
 import com.ltz.kotlindemo.chapter2.chapter2_4.recognize
 import com.ltz.kotlindemo.chapter2.chapter2_5.readNumber2
 import com.ltz.kotlindemo.chapter3.chapter3_6.print3_6
-import com.ltz.kotlindemo.chapter4.chapter4_4.print4_4_4
-import com.ltz.kotlindemo.chapter6.chapter6_3.print6_3_5
-import com.ltz.kotlindemo.chapter7.chapter7_3.print7_3_3
-import com.ltz.kotlindemo.chapter7.chapter7_3.print7_3_4
+import com.ltz.kotlindemo.chapter7.chapter7_5.print7_5_3
 import java.io.BufferedReader
 import java.io.StringReader
 import com.ltz.kotlindemo.util.lastChar as last
 
 class MainActivity : AppCompatActivity() {
+    @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -75,7 +75,7 @@ private fun showChapter4(main_text: TextView) {
 //    print4_4_1()
 //    print4_4_2()
 //    print4_4_3()
-    print4_4_4()
+//    print4_4_4()
 }
 
 private fun showChapter5(main_text: TextView) {
@@ -122,9 +122,10 @@ private fun showChapter6() {
 //    print6_3_1()
 //    print6_3_2()
 //    print6_3_3()
-    print6_3_5()
+//    print6_3_5()
 }
 
+@RequiresApi(Build.VERSION_CODES.O)
 private fun showChapter7() {
 //    print7_1_1()
 //    print7_1_2()
@@ -134,9 +135,13 @@ private fun showChapter7() {
 //    print7_3_1()
 //    print7_3_2()
 //    print7_3_3()
-    print7_3_4()
+//    print7_3_4()
 
+//    print7_4()
+//    print7_4_1()
 
+//    print7_5_2()
+    print7_5_3()
 }
 
 
