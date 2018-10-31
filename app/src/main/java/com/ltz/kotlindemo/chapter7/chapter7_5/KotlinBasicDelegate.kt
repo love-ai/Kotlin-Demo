@@ -29,6 +29,7 @@ fun loadEmails(person: Person1): List<Email> {
 }
 
 class Person1(val name: String) {
+    //支持属性技术
     private var _emails: List<Email>? = null
     val emails: List<Email>
         get() {
@@ -38,6 +39,6 @@ class Person1(val name: String) {
             return _emails!!//非空断言
         }
 
-    //实现上面的功能
+    //实现上面的功能 lazy是线程安全的
     val email by lazy { loadEmails(this) }
 }

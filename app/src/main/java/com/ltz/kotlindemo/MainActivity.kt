@@ -15,7 +15,11 @@ import com.ltz.kotlindemo.chapter2.chapter2_4.printTreeMap
 import com.ltz.kotlindemo.chapter2.chapter2_4.recognize
 import com.ltz.kotlindemo.chapter2.chapter2_5.readNumber2
 import com.ltz.kotlindemo.chapter3.chapter3_6.print3_6
+import com.ltz.kotlindemo.chapter7.chapter7_3.print7_3_4
+import com.ltz.kotlindemo.chapter7.chapter7_5.print7_5_2
 import com.ltz.kotlindemo.chapter7.chapter7_5.print7_5_3
+import com.ltz.kotlindemo.chapter7.chapter7_5.print7_5_5
+import com.ltz.kotlindemo.chapter7.chapter7_5.print7_5_6
 import java.io.BufferedReader
 import java.io.StringReader
 import com.ltz.kotlindemo.util.lastChar as last
@@ -97,7 +101,6 @@ private fun showChapter5(main_text: TextView) {
 
 //    print5_5_1()
 //    print5_5_2()
-
 }
 
 private fun showChapter6() {
@@ -141,7 +144,9 @@ private fun showChapter7() {
 //    print7_4_1()
 
 //    print7_5_2()
-    print7_5_3()
+//    print7_5_3()
+//    print7_5_5()
+    print7_5_6()
 }
 
 

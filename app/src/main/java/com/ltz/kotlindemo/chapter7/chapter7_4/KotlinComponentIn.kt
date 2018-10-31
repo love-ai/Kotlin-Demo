@@ -21,5 +21,6 @@ fun printEntries(map: Map<String, String>) {
         val key = entry.component1()
         val value = entry.component2()
     }
+
 }
 

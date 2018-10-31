@@ -10,8 +10,9 @@ import com.ltz.kotlindemo.chapter7.chapter7_1.Point
 
 fun print7_3_2() {
     val rec = Rectangle(Point(0, 40), Point(40, 0))
-    println(Point(5, 5) in rec)
-    println(Point(39, 0) in rec)
+    println(Point(5, 5) in rec)//true
+    println(Point(39, 0) in rec)//true
+    println(Point(40, 0) in rec)//false
 
 }
 

@@ -14,7 +14,7 @@ import java.time.LocalDate
 @RequiresApi(Build.VERSION_CODES.O)
 fun print7_3_4() {
     val newYear = LocalDate.ofYearDay(2017, 1)
-    val daysOff = newYear.minusDays(3)..newYear
+    val daysOff = newYear.minusDays(5)..newYear
     for (dayOff in daysOff) {
         println(dayOff)
     }
@@ -33,7 +33,7 @@ operator fun ClosedRange<LocalDate>.iterator(): Iterator<LocalDate> =
             @RequiresApi(Build.VERSION_CODES.O)
             //在修改前返回当前日期作为结果
             override fun next() = current.apply {
-                current = plusDays(1) //把当前日期增加一天
+                current = plusDays(2) //把当前日期增加一天
             }
 
         }

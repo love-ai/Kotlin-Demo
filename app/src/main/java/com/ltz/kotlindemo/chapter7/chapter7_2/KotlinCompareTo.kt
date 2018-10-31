@@ -12,7 +12,9 @@ fun print7_2_2() {
     val p2 = Person("Bob", "Johnson")
     println(p1 < p2)
     println(p1 >= p2)
-    println("abc" < "bac")//编译器可以直接判断出结果
+    // 编译器可以直接判断出结果
+    println("abc" < "bac")//java中实现了Comparable接口的，在kotlin中可以直接使用
+
 }
 
 class Person(val firstName: String, val lastName: String) : Comparable<Person> {
