@@ -19,7 +19,8 @@ fun print5_2_4() {
             book("Mort", listOf("Terry Pratchett")),
             book("Good Omens", listOf("Terry Pratchett", "Neil Gaima")))
 
-    println(books.flatMap { it.authors }.toSet())
+    println(books.flatMap { it.authors }.toSet())//toSet()移除重复元素
+
     //listOfLists.flatten() 这个函数没有找到
 
 

@@ -20,6 +20,9 @@ import com.ltz.kotlindemo.chapter7.chapter7_5.print7_5_2
 import com.ltz.kotlindemo.chapter7.chapter7_5.print7_5_3
 import com.ltz.kotlindemo.chapter7.chapter7_5.print7_5_5
 import com.ltz.kotlindemo.chapter7.chapter7_5.print7_5_6
+import com.ltz.kotlindemo.chapter8.chapter8_1.print8_1_1
+import com.ltz.kotlindemo.chapter8.chapter8_1.print8_1_2
+import com.ltz.kotlindemo.chapter8.chapter8_1.print8_1_3
 import java.io.BufferedReader
 import java.io.StringReader
 import com.ltz.kotlindemo.util.lastChar as last
@@ -34,7 +37,8 @@ class MainActivity : AppCompatActivity() {
 //        showChapter4(main_text)
 //        showChapter5(main_text)
 //        showChapter6()
-        showChapter7()
+//        showChapter7()
+        showChapter8()
     }
 }
 
@@ -146,7 +150,13 @@ private fun showChapter7() {
 //    print7_5_2()
 //    print7_5_3()
 //    print7_5_5()
-    print7_5_6()
+//    print7_5_6()
+}
+
+private fun showChapter8() {
+//    print8_1_1()
+//    print8_1_2()
+    print8_1_3()
 }
 
 
