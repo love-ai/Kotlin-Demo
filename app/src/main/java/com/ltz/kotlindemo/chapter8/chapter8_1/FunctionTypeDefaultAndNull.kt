@@ -12,6 +12,7 @@ fun print8_1_4() {
     println(stages.joinToString { it.toUpperCase() })
     foo {}
 
+
     println(stages.joinToString1())
 
 }
