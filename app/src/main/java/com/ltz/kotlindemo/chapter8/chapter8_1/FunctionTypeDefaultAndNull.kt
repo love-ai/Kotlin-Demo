@@ -4,6 +4,7 @@ import java.lang.StringBuilder
 
 /**
  * Created by xiaowei on 2018/11/6
+ * 函数类型的默认值和null值
  */
 
 fun print8_1_4() {
