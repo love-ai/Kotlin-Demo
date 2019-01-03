@@ -21,6 +21,11 @@ import com.ltz.kotlindemo.chapter7.chapter7_5.print7_5_3
 import com.ltz.kotlindemo.chapter7.chapter7_5.print7_5_5
 import com.ltz.kotlindemo.chapter7.chapter7_5.print7_5_6
 import com.ltz.kotlindemo.chapter8.chapter8_1.*
+import com.ltz.kotlindemo.chapter8.chapter8_2.print8_2_3
+import com.ltz.kotlindemo.chapter8.chapter8_2.print8_2_5
+import com.ltz.kotlindemo.chapter8.chapter8_3.print8_3_1
+import com.ltz.kotlindemo.chapter8.chapter8_3.print8_3_2
+import com.ltz.kotlindemo.chapter8.chapter8_3.print8_3_3
 import java.io.BufferedReader
 import java.io.StringReader
 import com.ltz.kotlindemo.util.lastChar as last
@@ -157,7 +162,16 @@ private fun showChapter8() {
 //    print8_1_3()
 //    print8_1_4()
 //    print8_1_5()
-    print8_1_6()
+//    print8_1_6()
+
+//    print8_2_3()
+//    print8_2_5()
+
+//    print8_3_1()
+//    print8_3_2()
+    print8_3_3()
+
+
 }
 
 
