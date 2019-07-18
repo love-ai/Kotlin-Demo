@@ -4,6 +4,7 @@ import java.io.BufferedReader
 
 /**
  * Created by xiaowei on 2018/7/27
+ * kotlin 异常
  */
 
 fun readNumber(reader: BufferedReader): Int? {//加？表示可为null
@@ -18,6 +19,7 @@ fun readNumber(reader: BufferedReader): Int? {//加？表示可为null
 
 }
 
+//try 表达式
 fun readNumber2(reader: BufferedReader) {
     val number = try {
         Integer.parseInt(reader.readLine())

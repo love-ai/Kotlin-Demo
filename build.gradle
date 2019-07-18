@@ -19,6 +19,10 @@ allprojects {
     repositories {
         google()
         jcenter(){url 'http://jcenter.bintray.com/'}
+        maven { url "http://172.16.1.20:8081/artifactory/gradle-dev-local/" }
+//        maven { url "http://39.96.46.115:8081/artifactory/gradle-release-local/" }
+
+//        maven { url "http://localhost:8081/artifactory/gradle-release-local/" }
     }
 }
 

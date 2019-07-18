@@ -4,6 +4,7 @@ import java.util.*
 
 /**
  * Created by xiaowei on 2018/7/27
+ * 自定义访问器
  */
 class Rectangle(val height: Int, val width: Int) {
     val isSquare: Boolean

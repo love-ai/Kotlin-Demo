@@ -2,13 +2,15 @@ package com.ltz.kotlindemo.chapter3.chapter3_1
 
 /**
  * Created by xiaowei on 2018/7/30
+ *
+ * kotlin中创建集合
  */
 
-val set = hashSetOf(1,7,23)
-val list = arrayListOf(1,8,24)
-val map = hashMapOf(1 to "one",7 to "seven",53 to "fifty-three")
+val set = hashSetOf(1, 7, 23)
+val list = arrayListOf(1, 8, 24)
+val map = hashMapOf(1 to "one", 7 to "seven", 53 to "fifty-three")
 
-fun printJavaClass(){
+fun printJavaClass() {
     println(set.javaClass)
     println(list.javaClass)
     println(map.javaClass)
@@ -16,4 +18,5 @@ fun printJavaClass(){
     println(set.max())
     println(set.first())
     println(set.average())
+    println(map.minBy { it.key })
 }

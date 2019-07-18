@@ -4,6 +4,12 @@ import java.util.*
 
 /**
  * Created by xiaowei on 2018/7/27
+ *
+ * for循环中的一些高级用法
+ * 1..100 包含1和100
+ * 1 until 100  不包含100
+ * 100 downTo 1 包含前面和后面的数
+ *
  */
 
 fun fizzBuzz(i: Int) = when {
@@ -34,12 +40,13 @@ fun printFizzBuzz() {
 
 //step 每次的步长
 
-fun printFizzBuzzStepDown() {
+fun printFizzBuzzStepDown(): String {
     var result = ""
-    for (i in 100 downTo 1 step 2) {
+    for (i in 10 downTo 2 step 2) {
+        println("i is $i")
         result += "${fizzBuzz(i)}  "
     }
-    println(result)
+    return result
 }
 
 //遍历map

@@ -39,5 +39,6 @@ class Person(val name: String, val company: Company?)
 
 fun Person.countryName(): String? {
     val country= this.company?.address?.country
+    println(this.let { it.company })
     return if(country!=null) country else "Unknow"
 }

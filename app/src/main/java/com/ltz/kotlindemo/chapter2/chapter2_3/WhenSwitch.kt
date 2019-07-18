@@ -2,6 +2,9 @@ package com.ltz.kotlindemo.chapter2.chapter2_3
 
 /**
  * Created by xiaowei on 2018/7/27
+ *
+ * when 相当于java中swith的增强版
+ *
  */
 //单一条件switch
 fun getMnemonic(color: Color) = when (color) {
@@ -13,6 +16,8 @@ fun getMnemonic(color: Color) = when (color) {
     Color.INDIGO -> "In"
     Color.VILOET -> "Vain"
 }
+
+
 
 //多个条件满足一个 switch
 fun getWarmthColor(color: Color) = when (color) {

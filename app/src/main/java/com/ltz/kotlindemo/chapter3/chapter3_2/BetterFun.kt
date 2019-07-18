@@ -4,6 +4,7 @@ import com.ltz.kotlindemo.util.joinToStringUtil
 
 /**
  * Created by xiaowei on 2018/7/31
+ * 让函数更好的调用
  */
 
 val list = listOf(1, 2, 3)

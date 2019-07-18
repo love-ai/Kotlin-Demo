@@ -29,6 +29,7 @@ public class JavaTest {
         StringFunctions.lastChar("xiaowei");
 //        MyUtilKt.lastChar("xiaowei");
         StringFunctions.getLastChar("Java");
+
     }
 
 

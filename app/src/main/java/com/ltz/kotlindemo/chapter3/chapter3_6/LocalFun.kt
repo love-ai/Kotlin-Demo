@@ -1,5 +1,5 @@
 package com.ltz.kotlindemo.chapter3.chapter3_6
-
+import com.ltz.stringutil.countStr1 as count
 /**
  * Created by xiaowei on 2018/8/1
  */
@@ -10,7 +10,9 @@ class User(val id: Int, val name: String, val address: String)
 fun print3_6() {
 //    saveUser(User(1, "xiaowei", "tongzhou"))
 //    saveUser1(User(1, "xiaowei", "tongzhou"))
-    saveUser2(User(1, "xiaowei", "tongzhou"))
+    val str = "goto home A and B and C and D and E and F and G and H"
+    println("count is ${str.count("and")}")
+//    saveUser2(User(1, "xiaowei", "tongzhou"))
     //保存user
 
 }

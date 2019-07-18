@@ -2,6 +2,7 @@ package com.ltz.kotlindemo.chapter2.chapter2_3
 
 /**
  * Created by xiaowei on 2018/7/27
+ * 枚举类型
  */
 
 enum class Color {
